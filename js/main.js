@@ -7,7 +7,9 @@ console.log ("Desafio: Creando un algoritmo utilizando un ciclo")
 Conjunto de procedimientos o funciones ordenadas que se necesitan para realizar cierta acción u operación.*/
 
 
-/* Utilizando estructura for 
+/* Utilizando estructura for */
+
+
 let integrantes = 'Mifamilia';
 for (let Mifamilia = 1; Mifamilia < 6 ; Mifamilia++) {
     integrantes += prompt ("Ingresa los nombres de tus familiares")+"\n";
@@ -15,7 +17,7 @@ for (let Mifamilia = 1; Mifamilia < 6 ; Mifamilia++) {
 alert(integrantes);
 
 
-/* Utilizando estructura while 
+/* Utilizando estructura while */
 
 let entrada = prompt ("Ingresar nombre de hermanos");
 let ingresados = '';
@@ -24,7 +26,6 @@ while (entrada != 'Juan') {
     entrada = prompt("ingrsar nombre de sus parejas");
 }
 alert(ingresados);
-*/
 
 
 
